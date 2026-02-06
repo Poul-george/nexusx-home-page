@@ -19,7 +19,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ja">
+    <html lang="ja" className="bg-white [color-scheme:light]">
       <body className="min-h-dvh bg-white text-zinc-900 antialiased">
         <SiteHeader />
         {children}
